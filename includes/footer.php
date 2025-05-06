@@ -2,7 +2,7 @@
 
 <footer class="bg-light text-center py-3 mt-auto">
   <div class="container">
-    <small>&copy; <?= date('Y') ?> Farm‑to‑Market. All rights reserved By STS.</small>
+    <small>&copy; <?= date('Y') ?> Farm‑to‑Market. All rights reserved By Sukanta116.</small>
   </div>
 </footer>
 
