@@ -1,0 +1,28 @@
+/* buyer.css - Buyer Portal overrides */
+
+body {
+    background-color: #e8f4fb;
+  }
+  
+  .navbar {
+    background-color: #3498db !important;
+  }
+  
+  .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .card.bg-primary {
+    background-color: #5dade2 !important;
+  }
+  
+  .sidebar-buyer .list-group-item-active {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+  .card .btn-success {
+    background-color: #2e86c1;
+    border-color: #2e86c1;
+  }
+  

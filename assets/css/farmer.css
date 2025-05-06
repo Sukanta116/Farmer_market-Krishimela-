@@ -1,0 +1,27 @@
+/* farmer.css - Farmer Dashboard overrides */
+
+body {
+    background-color: #e9f7ef;
+  }
+  
+  .navbar {
+    background-color: #27ae60 !important;
+  }
+  
+  .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .card.bg-primary {
+    background-color: #2ecc71 !important;
+  }
+  
+  .sidebar-farmer .list-group-item-active {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #f2fff7;
+  }
+  

@@ -1,0 +1,28 @@
+/* admin.css - Admin Panel overrides */
+
+body {
+    background-color: #f4e9f4;
+  }
+  
+  .navbar {
+    background-color: #8e44ad !important;
+  }
+  
+  .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  
+  .card.bg-warning {
+    background-color: #8e44ad !important;
+  }
+  
+  .sidebar-admin .list-group-item-active {
+    background-color: #8e44ad;
+    color: #fff;
+  }
+  
+  .table-responsive {
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+  }
+  

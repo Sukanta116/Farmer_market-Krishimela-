@@ -1,0 +1,86 @@
+/* common.css - shared styles */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  border-radius: 0.25rem;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.card {
+  border-radius: 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  flex: 1; /* Allow the main content to grow and push the footer down */
+}
+
+footer {
+ /* Light background for the footer */
+  text-align: center;
+  
+}
+
+.navbar-logo {
+  height: 70px; /* Adjust the height */
+  width: auto;  /* Maintain aspect ratio */
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Light background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand img {
+  height: 60px; /* Adjust logo size */
+}
+
+.nav-link {
+  font-weight: bold; /* Make links bold */
+  color: #fcfbfb; /* Darker text color */
+}
+
+.nav-link:hover {
+  color: #e4edf8; /* Change color on hover */
+}
+
+.nav-link.text-danger {
+  font-weight: bold;
+  color: #f50404; /* Red color for logout */
+}
+
+.nav-link.text-danger:hover {
+  color: #d4d3d3c1; /* Darker red on hover */
+}
+
